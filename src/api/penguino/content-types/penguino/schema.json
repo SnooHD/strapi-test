@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "penguinos",
+  "info": {
+    "singularName": "penguino",
+    "pluralName": "penguinos",
+    "displayName": "Penguino",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "flying_buffet": {
+      "type": "boolean"
+    }
+  }
+}
